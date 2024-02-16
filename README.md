@@ -1,5 +1,4 @@
-# pyecharts
-pyecharts基础
+# pyecharts基础
 
 目录：
 >demo
@@ -7,3 +6,5 @@ pyecharts基础
 >templates
 >>
 >>example.html
+
+templates示例文档目录：
