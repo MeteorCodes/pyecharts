@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://cdn.kesci.com/lib/pyecharts_assets/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="79c42a85fe2f471b8c05835e78c27ec7" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_79c42a85fe2f471b8c05835e78c27ec7 = echarts.init(
+            document.getElementById('79c42a85fe2f471b8c05835e78c27ec7'), 'white', {renderer: 'canvas'});
+        var option_79c42a85fe2f471b8c05835e78c27ec7 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "funnel",
+            "name": "\u6570\u636e",
+            "data": [
+                {
+                    "name": "Apple",
+                    "value": 123
+                },
+                {
+                    "name": "Huawei",
+                    "value": 153
+                },
+                {
+                    "name": "Xiaomi",
+                    "value": 89
+                },
+                {
+                    "name": "Oppo",
+                    "value": 107
+                },
+                {
+                    "name": "Vivo",
+                    "value": 98
+                },
+                {
+                    "name": "Meizu",
+                    "value": 23
+                }
+            ],
+            "sort": "descending",
+            "gap": 0,
+            "label": {
+                "show": true,
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Meizu",
+                "Huawei",
+                "Oppo",
+                "Apple",
+                "Xiaomi",
+                "Vivo"
+            ],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    }
+};
+        chart_79c42a85fe2f471b8c05835e78c27ec7.setOption(option_79c42a85fe2f471b8c05835e78c27ec7);
+    </script>
+</body>
+</html>
