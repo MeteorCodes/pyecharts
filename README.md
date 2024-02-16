@@ -1,13 +1,13 @@
 # pyecharts基础
 
-~~~目录：
+~~》目录：
 >demo
 >
 >templates
 >>
 >>example.html
 
-templates示例文档目录：
+~~》templates示例文档目录：
 >一.直角坐标系图表
 >
 >>  1.直方图-table_1-example_1.html
