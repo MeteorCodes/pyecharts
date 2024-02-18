@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://cdn.kesci.com/lib/pyecharts_assets/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="055c7ba466044fa68d114363d65c3486" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_055c7ba466044fa68d114363d65c3486 = echarts.init(
+            document.getElementById('055c7ba466044fa68d114363d65c3486'), 'white', {renderer: 'canvas'});
+        var option_055c7ba466044fa68d114363d65c3486 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "sunburst",
+            "name": "\u6570\u636e",
+            "data": [
+                {
+                    "name": "\u6e56\u5357",
+                    "children": [
+                        {
+                            "name": "\u957f\u6c99",
+                            "children": [
+                                {
+                                    "name": "\u96e8\u82b1\u533a",
+                                    "value": 55
+                                }
+                            ]
+                        },
+                        {
+                            "name": "\u5e38\u5fb7",
+                            "children": [
+                                {
+                                    "name": "\u6b66\u9675\u533a",
+                                    "value": 156
+                                },
+                                {
+                                    "name": "\u9f0e\u57ce\u533a",
+                                    "value": 134
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "\u6e56\u5317",
+                    "children": [
+                        {
+                            "name": "\u6b66\u6c49",
+                            "children": [
+                                {
+                                    "name": "\u6d2a\u5c71\u533a",
+                                    "value": 55
+                                },
+                                {
+                                    "name": "\u4e1c\u6e56\u9ad8\u65b0",
+                                    "value": 78
+                                }
+                            ]
+                        },
+                        {
+                            "name": "\u9102\u5dde",
+                            "value": 67
+                        }
+                    ]
+                }
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "highlightPolicy": "descendant",
+            "nodeClick": "rootToNode",
+            "sort": "desc",
+            "label": {
+                "show": true,
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    }
+};
+        chart_055c7ba466044fa68d114363d65c3486.setOption(option_055c7ba466044fa68d114363d65c3486);
+    </script>
+</body>
+</html>

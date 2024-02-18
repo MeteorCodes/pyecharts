@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://cdn.kesci.com/lib/pyecharts_assets/echarts.min.js"></script>
+            <script type="text/javascript" src="https://cdn.kesci.com/lib/pyecharts_assets/echarts-gl.min.js"></script>
+
+</head>
+<body >
+    <div id="e6a0b536031e479aa6766f49822e7f39" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_e6a0b536031e479aa6766f49822e7f39 = echarts.init(
+            document.getElementById('e6a0b536031e479aa6766f49822e7f39'), 'white', {renderer: 'canvas'});
+        var option_e6a0b536031e479aa6766f49822e7f39 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "map3D",
+            "name": "\u6570\u636e",
+            "map": "china",
+            "coordinateSystem": "geo3D",
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "data": [
+                {
+                    "name": "\u7518\u8083",
+                    "value": 20
+                },
+                {
+                    "name": "\u6cb3\u5357",
+                    "value": 15
+                }
+            ],
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6570\u636e"
+            ],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    }
+};
+        chart_e6a0b536031e479aa6766f49822e7f39.setOption(option_e6a0b536031e479aa6766f49822e7f39);
+    </script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://cdn.kesci.com/lib/pyecharts_assets/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="1246e96d926f41afa5ca18b86f5ff5fb" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_1246e96d926f41afa5ca18b86f5ff5fb = echarts.init(
+            document.getElementById('1246e96d926f41afa5ca18b86f5ff5fb'), 'white', {renderer: 'canvas'});
+        var option_1246e96d926f41afa5ca18b86f5ff5fb = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u5546\u5bb6",
+            "coordinateSystem": "polar",
+            "symbolSize": 4,
+            "data": [
+                123,
+                153,
+                89,
+                107,
+                98,
+                23
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "areaStyle": {
+                "opacity": 0
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5546\u5bb6"
+            ],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "radiusAxis": {
+        "type": "category",
+        "data": [
+            "Apple",
+            "Huawei",
+            "Xiaomi",
+            "Oppo",
+            "Vivo",
+            "Meizu"
+        ],
+        "nameGap": 15,
+        "inverse": false,
+        "scale": false,
+        "splitNumber": 5,
+        "minInterval": 0
+    },
+    "angleAxis": {
+        "startAngle": 90,
+        "clockwise": false,
+        "scale": false,
+        "splitNumber": 5
+    },
+    "polar": {
+        "center": [
+            "50%",
+            "50%"
+        ]
+    }
+};
+        chart_1246e96d926f41afa5ca18b86f5ff5fb.setOption(option_1246e96d926f41afa5ca18b86f5ff5fb);
+    </script>
+</body>
+</html>
