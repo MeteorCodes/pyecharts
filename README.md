@@ -41,3 +41,22 @@
 >> 
 >>  13.水球图-table_13-example_13.html
 >> 
+>>  14.关系图-table_14-example_14.html
+>> 
+>>  15.极坐标系-table_15-example_15.html
+>> 
+>>  16.雷达图-table_16-example_16.html
+>> 
+>>  17.旭日图-table_17-example_17.html
+>> 
+>>  18.词云-table_18-example_18.html
+>> 
+>>  19.表格-table_19-example_19.html
+>> 
+>四.3D图标
+>
+>>  20.3D散点图-table_20-example_20.html
+>> 
+>>  21.3D折线图-table_21-example_21.html
+>> 
+>>  22.3D直方图-table_22-example_22.html
